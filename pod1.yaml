@@ -6,7 +6,7 @@ metadata:
     name: webserver
 spec:
   containers:
-  - name: webserver
-    image: nginx
-    ports: 
-    - containerPort: 8080
+    - name: webserver
+      image: nginx
+        ports: 
+        - containerPort: 8080
